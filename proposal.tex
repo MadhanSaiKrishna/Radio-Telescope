@@ -1,0 +1,107 @@
+\documentclass[12pt]{report}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage[absolute,overlay]{textpos}
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{flushleft}
+    \begin{textblock*}{5cm}(1cm,1cm) % Position: 1cm from left and 1cm from top
+        \includegraphics[width=3cm]{Astro_Club_logo.png} % Adjust width as needed
+    \end{textblock*}
+\end{flushleft}
+
+\begin{flushright}
+    \begin{textblock*}{5cm}(15cm,1cm) % Position: 1cm from left and 1cm from top
+        \includegraphics[width=3cm]{Astro_Club_logo.png} % Adjust width as needed
+    \end{textblock*}
+\end{flushright}
+
+\centering
+\vspace{5em} % Adds vertical space above the heading (adjust as needed)
+{\huge \textbf{Radio Telescope}}\\[1em]
+{\normalsize \textbf{Astronautics Club - Project Proposal}}\\
+{\normalsize International Institute of Information Technology, Hyderabad}\\[5em]
+
+\begin{flushleft}
+    \textit{Respected Sir/Ma’am,}
+
+    \medskip
+
+    The Astronautics Club plans to start a new project – building a functional Radio Telescope. This hands-on initiative will provide students with practical experience in radio astronomy, electronics, data analysis, and collaborative problem-solving.
+
+    \medskip
+
+    Our goal is to build a low-cost, small-scale radio telescope capable of detecting celestial radio emissions. Initially, the telescope will focus on strong radio sources like the Sun and progress to more advanced observations.
+
+    \medskip
+
+    We will use the \href{https://github.com/astrochart/CHART}{CHART (Completely Hackable Radio Telescope)} model with our own optimizations. The initial design will include:
+    \begin{itemize}[leftmargin=1.5em]
+        \item A parabolic dish antenna with a feedhorn system for focusing incoming radio waves
+        \item A Low Noise Amplifier (LNA) and bandpass filter to enhance weak celestial signals
+        \item A Software-Defined Radio (SDR) receiver for flexible signal processing
+        \item Data acquisition and processing software using \href{https://github.com/gnuradio}{GNU Radio} and Python-based tools
+    \end{itemize}
+
+    In the following sections, we share our implementation timeline and potential future improvements. We welcome suggestions and collaborations to make this project a valuable learning experience for all involved.
+
+    \medskip
+
+    \textbf{Regards,} \\
+    Madhan Sai Krishna \\
+    Co-Coordinator, Astronautics Club
+    \end{flushleft}
+\end{titlepage}
+    \vspace{2em}
+    \begin{flushleft}
+    {\Large \textbf{Implementation Timeline}}\\[1em]
+
+    \textbf{Phase 1: Research \& Planning}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Study radio telescope designs, focusing on HI-line detection and planetary emissions
+        \item Develop a detailed blueprint for the antenna, receiver, and data pipeline
+        \item Estimate budget and procure required components
+    \end{itemize}
+
+    \textbf{Phase 2: Construction \& Assembly}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Build the parabolic dish and feedhorn system
+        \item Assemble the LNA, filters, and SDR receiver setup
+        \item Perform initial system integration and debugging
+    \end{itemize}
+
+    \textbf{Phase 3: Testing \& Calibration}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Test the system using terrestrial radio sources
+        \item Conduct celestial tests and compare signals with public datasets
+        \item Calibrate the telescope for accurate measurements
+        \item Optimize performance through iterative refinements
+    \end{itemize}
+
+    \textbf{Phase 4: Data Collection \& Analysis}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Implement data processing techniques to extract meaningful information
+        \item Document findings and prepare presentations for the club
+        \item Schedule and conduct observation sessions, beginning with the Sun
+    \end{itemize}
+
+    \section*{To-do:}
+    \begin{itemize}
+        \item Add the budget and components list
+        \item 
+    \end{itemize}
+    \end{flushleft}
+
+
+\end{document}
