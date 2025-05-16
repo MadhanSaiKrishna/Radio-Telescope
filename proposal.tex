@@ -10,25 +10,32 @@
 \usepackage[table]{xcolor}
 \usepackage{array}
 \usepackage[absolute,overlay]{textpos}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{makecell}
+
+\sloppy
+\def\UrlBreaks{\do\/\do-}
+
 
 
 \begin{document}
 
 \begin{titlepage}
     \begin{flushleft}
-    \begin{textblock*}{5cm}(1cm,1cm) % Position: 1cm from left and 1cm from top
-        \includegraphics[width=3cm]{Astro_Club_logo.png} % Adjust width as needed
+    \begin{textblock*}{5cm}(1.5cm,1cm) 
+        \includegraphics[width=3.75cm]{Astro_Club_logo.png} 
     \end{textblock*}
 \end{flushleft}
 
 \begin{flushright}
-    \begin{textblock*}{5cm}(15cm,1cm) % Position: 1cm from left and 1cm from top
-        \includegraphics[width=3cm]{Astro_Club_logo.png} % Adjust width as needed
+    \begin{textblock*}{5cm}(15.5cm,1.5cm) 
+        \includegraphics[width=5cm]{iiith_logo.png}
     \end{textblock*}
 \end{flushright}
 
 \centering
-\vspace{5em} % Adds vertical space above the heading (adjust as needed)
+
 {\huge \textbf{Radio Telescope}}\\[1em]
 {\normalsize \textbf{Astronautics Club - Project Proposal}}\\
 {\normalsize International Institute of Information Technology, Hyderabad}\\[5em]
@@ -38,35 +45,57 @@
 
     \medskip
 
-    The Astronautics Club plans to start a new project – building a functional Radio Telescope. This hands-on initiative will provide students with practical experience in radio astronomy, electronics, data analysis, and collaborative problem-solving.
+    We, the members of the Astronautics Club, are excited to propose a project to build a small-scale low-cost radio telescope. This project aims to provide hands-on experience in a range of inter-disciplinary domains, including electronics, computer science, signal proocessingn, and radio astronomy.  
+
+    \medskip
+    % \textbf{Project Overview:} \\
+    \section*{Project Overview:}
+    Through this project, we aim to build a small-scale radio telescope that can be assembled and opererated by students primarily for experimental and educational purposes. \\
+     The initial objective is to detect strong and reliable sources such as the Sun, the artificial satellites, the Milky Way, etc. As the project progresses, we aim to improve the sensitivity and resolution of the telescope to detect weaker sources.\\
 
     \medskip
 
-    Our goal is to build a low-cost, small-scale radio telescope capable of detecting celestial radio emissions. Initially, the telescope will focus on strong radio sources like the Sun and progress to more advanced observations.
-
-    \medskip
-
-    We will use the \href{https://github.com/astrochart/CHART}{CHART (Completely Hackable Radio Telescope)} model with our own optimizations. The initial design will include:
+    Our design and methodology will be guided by well-documented open-source radio telescope projects, like - CHART \cite{ref1} and Project RT \cite{ref4}\\
+    The telescope system will consist of the following modules:
     \begin{itemize}[leftmargin=1.5em]
-        \item A parabolic dish antenna with a feedhorn system for focusing incoming radio waves
-        \item A Low Noise Amplifier (LNA) and bandpass filter to enhance weak celestial signals
-        \item A Software-Defined Radio (SDR) receiver for flexible signal processing
-        \item Data acquisition and processing software using \href{https://github.com/gnuradio}{GNU Radio} and Python-based tools
+        \item Antenna system: A parabolic dish antenna \& a custom feedhorn
+        \item Signal conditioning chain: LNA \& bandpass filters
+        \item A Software-Defined Radio (SDR) receiver: RTL-SDR with a dipole antenna
+        \item Data acquisition and processing System :  \href{https://github.com/gnuradio}{GNU Radio} and Python-based tools
+    \end{itemize}
+
+    \medskip
+    % \textbf{Project Impact:} \\
+    \section*{Project Impact:}
+    \begin{itemize}
+        \item Foster interdisciplinary collaboration among students in electronics, computer science, and radio astronomy
+        \item Develop hands-on experience in antenna theory and design
+        \item Enable exploration of signal processing techniques using tools like GNU Radio and Python
+        \item Enhance research and analytical skills through data collection, processing, etc. 
     \end{itemize}
 
     In the following sections, we share our implementation timeline and potential future improvements. We welcome suggestions and collaborations to make this project a valuable learning experience for all involved.
 
     \medskip
-
-    \textbf{Regards,} \\
-    Madhan Sai Krishna \\
-    Co-Coordinator, Astronautics Club
     \end{flushleft}
 \end{titlepage}
-    \vspace{2em}
-    \begin{flushleft}
-    {\Large \textbf{Implementation Timeline}}\\[1em]
 
+\section*{Key Components: }
+\begin{enumerate}
+    \item \textbf{Antenna System:} \\
+    \item \textbf{Signal Conditioning Chain:} \\
+    \item \textbf{Software-Defined Radio (SDR) Receiver:} \\
+    \item \textbf{Data Acquisition and Processing System:} \\
+\end{enumerate}
+    % \vspace{2em}
+    \begin{flushleft}
+    {\Large \textbf{Project Timeline}}\\[1em]
+    \textbf{Phase 0: Initial Research \& Design}
+    \begin{itemize}[leftmargin=1.5em]
+        \item Research existing radio telescope designs and their components
+        \item Identify suitable materials and suppliers for the project
+        \item Create a detailed project plan with milestones and deliverables
+    \end{itemize}
     \textbf{Phase 1: Research \& Planning}
     \begin{itemize}[leftmargin=1.5em]
         \item Study radio telescope designs, focusing on HI-line detection and planetary emissions
@@ -96,12 +125,99 @@
         \item Schedule and conduct observation sessions, beginning with the Sun
     \end{itemize}
 
-    \section*{To-do:}
-    \begin{itemize}
-        \item Add the budget and components list
-        \item 
-    \end{itemize}
+
+    Other timeline : 
+    \begin{enumerate}
+        \item Literature survey and component procurement
+        \item Mechanical design (Dish setup and feedhorn)
+        \item Electronics setup (LNA, Filter, etc.)
+        \item SDR configuration and testing
+        \item Data collection and analysis
+        \item Final testing, documentation and future enhancements
+    \end{enumerate}
     \end{flushleft}
+\section*{Bill of Materials: Radio Telescope Project}
+The following table outlines the estimated components required to construct the small-scale radio telescope. 
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{% Resize table to fit page width
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \rowcolor{gray!20}
+            \textbf{Component} & \textbf{Specification} & \textbf{Estimated Cost (INR)} & \textbf{Supplier Link} \\
+            \hline
+            Aluminium Foil adhesive tape & - & 200 & \href{https://amzn.in/d/7cCpcly
+            }{Amazon} \\
+            \hline
+            Aluminium Foil & - & 400 & \href{https://amzn.in/d/i8KKOHn
+            }{Amazon}\\
+            \hline
+            Cardboard Sheets & 4 36" x 48" & 500 &  \href{ https://amzn.in/d/8RtQvZT}{Amazon}\\
+            \hline
+            Coaxial Cable & - & - & \href{https://amzn.in/d/a2lSafl}{Amazon} / Local\\
+            \hline
+            SMA female connector & - & 790 & \href{https://amzn.in/d/hAuZsYu}{Amazon}\\
+            \hline
+            SMA male to male right angle connector & - & - & \href{https://amzn.in/d/cBtrowx}{Amazon}\\
+            \hline
+            male to male \& female to female connectors & - & - & \href{https://amzn.in/d/dfnezPs}{Amazon}\\
+            \hline
+            RTL-SDR with Dipole Antenna Kit & - & & \href{ https://amzn.in/d/bKsKqL1}{Amazon}\\
+            \hline
+            RTL Dongle & - & 8450 & \href{https://amzn.in/d/brW76fM}{Amazon}\\
+            \hline
+            \makecell{TATA Sky Set up (Reflector Parabolic Dish,\\ the mount attachment, LNB and set-top box)} & - & 5000 & Link\\
+            \hline
+
+        \end{tabular}%
+    }
+    \caption{Estimated costs}
+    % \label{tab:components}
+\end{table}
+
+
+\begin{thebibliography}{9}
+    \label{sec: references}
+\bibitem{ref1}
+CHART (Completely Hackable Radio Telescope) \\
+\url{https://astrochart.github.io/telescope_design}
+\bibitem{ref2}
+NASA's Radio Jove Project \\
+\url{https://radiojove.gsfc.nasa.gov/radio_telescope/building_testing.php}
+\bibitem{ref3}
+CBSS Nsukka \\
+\url{https://astro4dev.org/nigerian-project-develops-diy-low-cost-radio-telescope-for-teaching/}
+\bibitem{ref4}
+Project Radio Telescope - BITS Goa \\
+% \url{https://github.com/Project-RT-BPGC/CompSci}
+\url{https://projectrtbits.wordpress.com/}
+\bibitem{ref5}
+MIT Haystack Observatory \\
+\url{https://www.haystack.mit.edu/haystack-public-outreach/srt-the-small-radio-telescope-for-education/}
+\bibitem{ref6}
+IEEE Penn State Harisburg \\
+\url{https://edu.ieee.org/us-psu/2024/01/20/radio-telescope-project/}
+
+\section*{To-do:}
+\begin{itemize}
+    \item complete the bill of materials table with actual working and reliable links
+    \item formate the doc in a better Way
+    \item complete the key components and project timeline
+    \item add few images of what can be expected from the project (use Project RT iamges as reference)
+    \item highlight the research benefits 
+    \item 
+\end{itemize}
+
+\end{thebibliography}
+\begin{flushleft}
+    Thank you for considering our proposal. We look forward to your support and are happy to provide any additional details or clafications as required. \\ \vspace{1em}
+
+    Sincerely,\\ 
+    Name \\
+    On behalf of the Astronautics Club\\
+    Department and Year \\
+    Contact info
+\end{flushleft}
 
 
 \end{document}

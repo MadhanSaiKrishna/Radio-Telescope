@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  11 MAY 2025 04:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  17 MAY 2025 03:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,35 +288,40 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@oy=\dimen170
 \TP@tbargs=\toks24
 TextBlockOrigin set to 0pt x 0pt
+) (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen171
+\c@nlinenum=\count285
+\TeXr@lab=\toks25
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 15.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 22.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
+\l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box62
 ) (proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -352,56 +357,106 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 22.
 (proposal.out) (proposal.out)
 \@outlinefile=\write3
 \openout3 = `proposal.out'.
 
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen171
+\scratchcounter=\count287
+\scratchdimen=\dimen172
 \scratchbox=\box63
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen172
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen173
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks27
 ) (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 <Astro_Club_logo.png, id=3, 822.82407pt x 798.73407pt>
 File: Astro_Club_logo.png Graphic file (type png)
 <use Astro_Club_logo.png>
-Package pdftex.def Info: Astro_Club_logo.png  used on input line 20.
-(pdftex.def)             Requested size: 85.35826pt x 82.85188pt.
-File: Astro_Club_logo.png Graphic file (type png)
-<use Astro_Club_logo.png>
-Package pdftex.def Info: Astro_Club_logo.png  used on input line 26.
-(pdftex.def)             Requested size: 85.35826pt x 82.85188pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 51.
+Package pdftex.def Info: Astro_Club_logo.png  used on input line 27.
+(pdftex.def)             Requested size: 106.69783pt x 103.57094pt.
+<iiith_logo.png, id=5, 169.5936pt x 87.6876pt>
+File: iiith_logo.png Graphic file (type png)
+<use iiith_logo.png>
+Package pdftex.def Info: iiith_logo.png  used on input line 33.
+(pdftex.def)             Requested size: 142.26378pt x 73.56207pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 61.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
-{C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Astro_Club_logo.png>]
+{C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Astro_Club_logo.png> <./iiith_logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 \end{document}
-                     [1] (proposal.aux)
+l.134         \item S
+                     DR configuration and testing [1]
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 173.
+ (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 173.
+ (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 173.
+ (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 173.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 173.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 173.
+ [2]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 183.
+ (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+[]$\OT1/lmtt/m/n/12 https : / / astro4dev\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 org / nigerian -[] project -[] develops -[] diy -[] low -[] cost -[] radio -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+[]$\OT1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 haystack\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 mit\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 edu / haystack -[] public -[] outreach / srt -[] the -[] small -[]
+ []
+
+[3
+
+{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (proposal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -410,17 +465,17 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10500 strings out of 474486
- 166822 string characters out of 5743755
- 1933542 words of memory out of 5000000
- 32657 multiletter control sequences out of 15000+600000
- 580672 words of font info for 45 fonts, out of 8000000 for 9000
+ 10765 strings out of 474486
+ 170394 string characters out of 5743755
+ 1937542 words of memory out of 5000000
+ 32878 multiletter control sequences out of 15000+600000
+ 589059 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,326b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on proposal.pdf (2 pages, 1272045 bytes).
+ 75i,19n,79p,374b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on proposal.pdf (4 pages, 1374482 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
