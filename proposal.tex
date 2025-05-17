@@ -82,19 +82,36 @@
 
 \section*{Key Components: }
 \begin{enumerate}
-    \item \textbf{Antenna System:} \\
-    \item \textbf{Signal Conditioning Chain:} \\
-    \item \textbf{Software-Defined Radio (SDR) Receiver:} \\
-    \item \textbf{Data Acquisition and Processing System:} \\
+    \item \textbf{Antenna System:} 
+    \begin{itemize}
+        \item A parabolic dish antenna (e.g. a repurposed satellite dish) - primary collector of incoming radio waves
+        \item A custom feedhorn - to direct signals to the receiver chain
+    \end{itemize}
+    \item \textbf{Signal Conditioning Chain:} 
+    \begin{itemize}
+        \item LNA - to amplify weak celestial signals and minimize other electronic noises
+        \item Bandpass filter - To isolate our desired frequency band (1.42GHz - 21cm Hydrogen line)
+    \end{itemize}
+    \item \textbf{Software-Defined Radio (SDR) Receiver}
+    \begin{itemize}
+        \item RTL-SDR with custom antenna - to convert incoming analog signals into a format suitable fro proccessing
+    \end{itemize}
+    \item \textbf{Data Acquisition and Processing System:}
+    \begin{itemize}
+        \item GNU Radio, CubicSDR, etc. for real time signal processing
+        \item Python based tools for computational Analysis
+        \item MATLAB, SciPy, etc. for signal visualization
+    \end{itemize}
 \end{enumerate}
     % \vspace{2em}
     \begin{flushleft}
-    {\Large \textbf{Project Timeline}}\\[1em]
-    \textbf{Phase 0: Initial Research \& Design}
+
+\section*{Project Timeline:}
+    \textbf{Phase 0: Literature review and Component procurement}
     \begin{itemize}[leftmargin=1.5em]
-        \item Research existing radio telescope designs and their components
-        \item Identify suitable materials and suppliers for the project
-        \item Create a detailed project plan with milestones and deliverables
+        \item Literature review of existing amateur radio telescope builds 
+        \item Finalize bill of materials and begin procurement of key components
+        \item JDocument the specifications of the project
     \end{itemize}
     \textbf{Phase 1: Research \& Planning}
     \begin{itemize}[leftmargin=1.5em]
@@ -124,17 +141,6 @@
         \item Document findings and prepare presentations for the club
         \item Schedule and conduct observation sessions, beginning with the Sun
     \end{itemize}
-
-
-    Other timeline : 
-    \begin{enumerate}
-        \item Literature survey and component procurement
-        \item Mechanical design (Dish setup and feedhorn)
-        \item Electronics setup (LNA, Filter, etc.)
-        \item SDR configuration and testing
-        \item Data collection and analysis
-        \item Final testing, documentation and future enhancements
-    \end{enumerate}
     \end{flushleft}
 \section*{Bill of Materials: Radio Telescope Project}
 The following table outlines the estimated components required to construct the small-scale radio telescope. 
@@ -174,10 +180,17 @@ The following table outlines the estimated components required to construct the 
     \caption{Estimated costs}
     % \label{tab:components}
 \end{table}
-
+\section*{To-do:}
+\begin{itemize}
+    \item complete the bill of materials table with actual working and reliable links from which we can procure the components
+    \item format the doc
+    \item articulate the project timeline in a better way and include more details about the key cocmponents
+    \item add few images of what can be expected from the project (use Project RT iamges as reference)
+    \item highlight the research benefits 
+    \item 
+\end{itemize}
 
 \begin{thebibliography}{9}
-    \label{sec: references}
 \bibitem{ref1}
 CHART (Completely Hackable Radio Telescope) \\
 \url{https://astrochart.github.io/telescope_design}
@@ -197,17 +210,6 @@ MIT Haystack Observatory \\
 \bibitem{ref6}
 IEEE Penn State Harisburg \\
 \url{https://edu.ieee.org/us-psu/2024/01/20/radio-telescope-project/}
-
-\section*{To-do:}
-\begin{itemize}
-    \item complete the bill of materials table with actual working and reliable links
-    \item formate the doc in a better Way
-    \item complete the key components and project timeline
-    \item add few images of what can be expected from the project (use Project RT iamges as reference)
-    \item highlight the research benefits 
-    \item 
-\end{itemize}
-
 \end{thebibliography}
 \begin{flushleft}
     Thank you for considering our proposal. We look forward to your support and are happy to provide any additional details or clafications as required. \\ \vspace{1em}

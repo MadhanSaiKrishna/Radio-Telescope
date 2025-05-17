@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  17 MAY 2025 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  17 MAY 2025 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,60 +397,40 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 {C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Astro_Club_logo.png> <./iiith_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134         \item S
-                     DR configuration and testing [1]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 173.
+l.136     \end{itemize}
+                        [1]
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 179.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 173.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 179.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 173.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 179.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 173.
+(Font)              <12> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 173.
+(Font)              <8> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 173.
+(Font)              <6> on input line 179.
  [2]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 183.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 196.
  (C:\Users\madha\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 []$\OT1/lmtt/m/n/12 https : / / astro4dev\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 org / nigerian -[] project -[] develops -[] diy -[] low -[] cost -[] radio -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 []$\OT1/lmtt/m/n/12 https : / / www\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 haystack\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 mit\OML/lmm/m/it/12 :\OT1/lmtt/m/n/12 edu / haystack -[] public -[] outreach / srt -[] the -[] small -[]
  []
 
@@ -465,17 +445,17 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10765 strings out of 474486
- 170394 string characters out of 5743755
- 1937542 words of memory out of 5000000
- 32878 multiletter control sequences out of 15000+600000
+ 10758 strings out of 474486
+ 170340 string characters out of 5743755
+ 1938542 words of memory out of 5000000
+ 32877 multiletter control sequences out of 15000+600000
  589059 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,374b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,374b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on proposal.pdf (4 pages, 1374482 bytes).
+Output written on proposal.pdf (4 pages, 1374197 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

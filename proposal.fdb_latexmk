@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747431256.55748 "c:/Users/madha/Desktop/Radio-Telescope/proposal.tex" "proposal.pdf" "proposal" 1747431257.55514 0
+["pdflatex"] 1747471739.02137 "c:/Users/madha/Desktop/Radio-Telescope/proposal.tex" "proposal.pdf" "proposal" 1747471740.04824 0
   "Astro_Club_logo.png" 1722849079 1104912 171388d16d55d6b5761f127ea71b1a50 ""
   "C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747428142 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/madha/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1745497200 24225046 55ec7b4ab46b4cc900ce8201fad20a66 ""
@@ -91,11 +91,11 @@
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1700599895 12935 94a3291359b5f73ff1b19345a6983105 ""
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/madha/Desktop/Radio-Telescope/proposal.tex" 1747431255 9277 aeb40cb5c39ebf4905c6734051f0addb ""
+  "c:/Users/madha/Desktop/Radio-Telescope/proposal.tex" 1747471737 9757 4d7cc49c7ccd9135d3afbcb32098abaa ""
   "iiith_logo.png" 1746966559 58435 fd6ff4368f1ee98c0cd7063360e62933 ""
-  "proposal.aux" 1747431257 487 df7c81b32463b06cadb254f3660ae6a5 "pdflatex"
-  "proposal.out" 1747431257 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "proposal.tex" 1747431255 9277 aeb40cb5c39ebf4905c6734051f0addb ""
+  "proposal.aux" 1747471739 428 c9d4f8e9c5f074b4ff8aa3ed355c31bb "pdflatex"
+  "proposal.out" 1747471739 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "proposal.tex" 1747471737 9757 4d7cc49c7ccd9135d3afbcb32098abaa ""
   (generated)
   "proposal.aux"
   "proposal.log"
